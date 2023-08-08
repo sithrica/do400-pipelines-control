@@ -27,7 +27,7 @@ stage('Frontend Tests') {
                 expression { env.GIT_BRANCH == 'origin/main' }
             }
             steps {
-                echo 'Deploying...'
+                echo 'Step Not executed...'
             }
         }
                 stage('Frontend Tests') {
